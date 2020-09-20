@@ -1,0 +1,46 @@
+{
+	"id": "fefa257c-4177-11e2-0d27-9ec072f11603",
+	"name": "Datman",
+	"description": "",
+	"order": [
+		"957a2ce1-1da0-763e-fa42-e4c620b8c0ee"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1600594262527,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "957a2ce1-1da0-763e-fa42-e4c620b8c0ee",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/payment",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "fefa257c-4177-11e2-0d27-9ec072f11603",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:3000/api/payment",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1600594272706,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"client_id\": \"78884334354657523423fdxgvtyt345\",\n\t\"ref_no\": \"7889\",\n\t\"amount\": 1000,\n\t\"currency\": \"USD\",\n\t\"vat\": 5,\n\t\"service_tax\": 10\n}"
+		}
+	]
+}
